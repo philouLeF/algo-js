@@ -1,5 +1,4 @@
-let name = "Philippe";
-let firstName = "Delcroix";
-let city = "Namur";
+const readlineSync = require("readline-sync")
 
-console.log("Your name is " + name + " "  + firstName + " and you live in " + city)
+let firstName = readlineSync.question("Can you give me your first name please ?");
+console.log("Hello "+firstName);
